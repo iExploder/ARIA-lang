@@ -44,13 +44,21 @@ Notice:
   * In this way of saying ARIA may be mad from the way of speaking LOL
   * Replacing **LEE** to **LE** is a more gentle way(also recommended).
 
-## Roadmap
+## Grammar / 文法
+
+See [Page Grammar](grammar.md).
+
+## Vocabulary / 語彙 (In progress)
+
+See [Page Vocabulary](vocabulary.md).
+
+## Roadmap / 目標
 
 * Language Design (Now)
 * OCaml-based Parser (Not yet)
 * Bytecode-based Backends (Not yet)
 
-## Related Link(s)
+## Related Link(s) / 関連リンク
 
 * Homepage of Tindharia Series(日本語)
   * <http://tindharia.net/>
