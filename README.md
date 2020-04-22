@@ -51,10 +51,14 @@ Notice:
 
 ## Related Link(s)
 
+* Homepage of Tindharia Series(日本語)
+  * <http://tindharia.net/>
 * Haruka Shimotsuki(霜月はるか)
   * Wiki(日本語): <https://ja.wikipedia.org/wiki/%E9%9C%9C%E6%9C%88%E3%81%AF%E3%82%8B%E3%81%8B>
   * Wiki(English): <https://en.wikipedia.org/wiki/Haruka_Shimotsuki>
   * Wiki(中文): <https://zh.wikipedia.org/wiki/%E9%9C%9C%E6%9C%88%E9%81%99>
+* Nao Hiyama(日山尚)
+  * Wiki(日本語): <https://ja.wikipedia.org/wiki/%E6%97%A5%E5%B1%B1%E5%B0%9A>
 * Introduction to ARIA
   * Author: [@cocosarla](https://twitter.com/cocosarla)
   * Wiki(日本語): <https://w.atwiki.jp/cocoa_nu/>
