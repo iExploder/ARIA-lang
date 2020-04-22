@@ -2,7 +2,8 @@
 
 A programming language inspired by an artificial language ARIA(アリア語), appeared in song series Tindharia(pronounces "tin-dah-ria") by Haruka Shimotsuki and Nao Hiyama.
 
-こちらは霜月はるかと日山尚（敬称略）のメディアミックス作品群「ティンダーリアシリーズ」に登場した人造言語である「アリア語」から
+こちらは霜月はるかと日山尚（敬称略）のメディアミックス作品群「ティンダーリアシリーズ」に登場した人造言語である「アリア語」からのプログラム言語化プロジェクトの主産物、
+ARIA言語である。
 
 **~ FEL SHIRY LA WEL FERY ARIA, SYUA FEL FEARY WEL. ~**
 
