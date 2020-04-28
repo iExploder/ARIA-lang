@@ -44,9 +44,9 @@ Notice:
   * In this way of saying ARIA may be mad from the way of speaking LOL
   * Replacing **LEE** to **LE** is a more gentle way(also recommended).
 
-## Grammar / 文法
+## Syntax / 文法
 
-See [Page Grammar](grammar.md).
+See [Page ARIA TIRA](aria_tira.md).
 
 ## Vocabulary / 語彙 (In progress)
 
