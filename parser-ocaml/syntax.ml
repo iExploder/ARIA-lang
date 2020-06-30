@@ -30,7 +30,7 @@ type expr_type =
 | OriaT
 | TiraT
 | AriaT
-| EndyT of expr_type list
+| EndyT of expr_type list * expr_type
 
 type expr =
 | Weld of weld
@@ -41,7 +41,10 @@ type expr =
 type stmt =
 | HoryNelweld of mar * expr_type
 | HoryNelweldFie of mar * expr_type option * expr
-| HoryEndy of mar * expr_type list * 
+| HoryEndy of mar * expr_type list * stmt list
+| 
 
-let tindharia = []
+let tindharia = ref []
+
+
 

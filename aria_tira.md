@@ -82,6 +82,8 @@ FEL ARS function-name. WEL FIRY param1 (SA/SE param2 ...).
 LU.
 ```
 
+
+
 ## IRY (Operations)
 
 ### Arithmetic Operations
@@ -103,7 +105,13 @@ Notice: Priority of Multiplication and Division is higher than Addition and Subt
 
 * Concat Strings  `&`
 
-## QURELY (Assignment)
+### ENDY (Function Call)
+
+```aria
+(param0 SIE value0, ..., ) LE/LEE WIRY function.
+```
+
+## QURELY (Assignment Statement)
 
 ```aria
 name QURELY new-value.
@@ -121,7 +129,7 @@ value1 SIE value2? SYUA statement1; NEL SYUA statement2.
 If value1 equals value2, statement1 would be executed.
 Otherwise, statement2 would be executed.
 
-## ENDIA (Loops)
+## ENDIA (Loops Statement)
 
 ENDIA(loop), DIRY(break)
 
@@ -141,14 +149,10 @@ FEL WIRY ENDIA SAR condition.
 FEL ENDY ENDIA.
 ```
 
-## ARY (Built-in Print)
+## ARY (Built-in Print Statement)
 
 ```aria
 FEL/LE/LEE ARY value (SA/SE value ...).
 ```
 
-## ENDY (Function Call)
 
-```aria
-(param0 SIE value0, ..., ) LE/LEE WIRY function.
-```
