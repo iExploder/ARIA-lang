@@ -44,31 +44,14 @@ You **CAN NOT** use them as names of variables or functions.
 
 ### HORY NELWELD (Declaration of Variables)
 
-```aria
-FEL HORY name TAS type.
-name HORK TAS type.
-FEL LAWARY name TAS type.
-```
-
 Variable should have alphabetal name in **capital** letters,
 ends with `A`.
 
 #### Examples
 
 ```aria
-FEL HORY HOGEA.
-FEL HORY PIYOA TAS ARIA.
-BARA HORK TAS ARIA.
-FEL LAWARY FUGAA TAS ORIA.
-```
-
-Specially, Declaration with initialization could be written in
-
-```aria
 FEL HORY name, FIE value.
-FEL HORY name TAS type, FIE value.
 name HORK, FIE value.
-name HORK TAS type, FIE value.
 ```
 
 Variable's `type` is infered by initial value if it is not specified.
@@ -76,7 +59,7 @@ Variable's `type` is infered by initial value if it is not specified.
 ### HOLY ENDY (Declaration of Functions)
 
 ```aria
-FEL ARS function-name. WEL FIRY param1 (SA/SE param2 ...).
+FEL ARS LO function-name, WEL FIRY param1 (SA/SE param2 ...).
   in-function contents
   WEL FIRK return-value.
 LU.
@@ -101,6 +84,22 @@ Notice: Priority of Multiplication and Division is higher than Addition and Subt
 * Increment       `YUERY`
 * Decrement       `WORY`
 
+### Comparation Operation
+
+* Greater           `>`
+* Greater or Equal  `>=`
+* Less              `<`
+* Less or Equal     `<=`
+* Equal             `=`
+
+Notice `=` can operate on **ORIA**(Numbers), **TIRA**(Booleans) and **ARIA**(Strings)
+but `> >= < <=` can only operate on **ORIA**(Numbers).
+
+### Boolean Operation
+
+* Boolean AND     `SA` or `SE`
+* Boolean OR      `SO`
+
 ### General Operations
 
 * Concat Strings  `&`
@@ -108,7 +107,8 @@ Notice: Priority of Multiplication and Division is higher than Addition and Subt
 ### ENDY (Function Call)
 
 ```aria
-(param0 SIE value0, ..., ) LE/LEE WIRY function.
+FEL/LE/LEE ENDY function MIO param0 SIE value0, ... .
+function ENDK MIO param0 SIE value0, param1 SIE value1, ... .
 ```
 
 ## QURELY (Assignment Statement)
@@ -119,14 +119,14 @@ name QURELY new-value.
 
 Assign `new-value` to variable `name`.
 
-## SIE-SYUA (If-condition Statement)
+## RARY-SYUA (If-condition Statement)
 
 ```aria
-value1 SIE value2? SYUA statement1.
-value1 SIE value2? SYUA statement1; NEL SYUA statement2.
+value RARY? SYUA statement1.
+value RARY? SYUA statement1. NEL SYUA statement2.
 ```
 
-If value1 equals value2, statement1 would be executed.
+If value is SELD(true), statement1 would be executed.
 Otherwise, statement2 would be executed.
 
 ## ENDIA (Loops Statement)
@@ -138,7 +138,7 @@ ENDIA(loop), DIRY(break)
 ```aria
 FEL WIRY ENDIA.
   (do something)
-FEL ENDY ENDIA.
+ENDIA LU.
 ```
 
 ### While Loop
@@ -146,13 +146,13 @@ FEL ENDY ENDIA.
 ```aria
 FEL WIRY ENDIA SAR condition.
   (do something)
-FEL ENDY ENDIA.
+ENDIA LU.
 ```
 
 ## ARY (Built-in Print Statement)
 
 ```aria
-FEL/LE/LEE ARY value (SA/SE value ...).
+FEL/LE/LEE ARY value.
 ```
 
 
