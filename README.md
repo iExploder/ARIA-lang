@@ -56,6 +56,7 @@ See [Page Vocabulary](vocabulary.md).
 
 * Language Design (OK)
 * OCaml-based Interpreter (OK)
+* ARIA Translation of Error Message (Please contribute!)
 * Extended Syntax (on roadmap)
 
 ## Related Link(s) / 関連リンク
