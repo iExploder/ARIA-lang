@@ -54,9 +54,9 @@ See [Page Vocabulary](vocabulary.md).
 
 ## Roadmap / 目標
 
-* Language Design (Now)
-* OCaml-based Parser (Not yet)
-* Bytecode-based Backends (Not yet)
+* Language Design (OK)
+* OCaml-based Interpreter (OK)
+* Extended Syntax (on roadmap)
 
 ## Related Link(s) / 関連リンク
 
