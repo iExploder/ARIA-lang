@@ -46,11 +46,15 @@ Notice:
 
 ## Syntax / 文法
 
-See [Page ARIA TIRA](aria_tira.md).
+See [PAGE ARIA TIRA](aria_tira.md).
 
 ## Vocabulary / 語彙 (In progress)
 
-See [Page Vocabulary](vocabulary.md).
+See [PAGE Vocabulary](vocabulary.md).
+
+## How to build / ビルド
+
+See [PAGE Build](build.md).
 
 ## Roadmap / 目標
 
