@@ -169,4 +169,4 @@ ary:
   | LEE ARY tind FULLSTOP  { print_string warn_lee; Ary($3) }
 
 main:
-  | walre EOF        { $1 }
+  | walre            { $1 }
