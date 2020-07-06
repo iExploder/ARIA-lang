@@ -13,7 +13,7 @@ let alpha = ['A'-'Z' 'a'-'z' '_']
 
 rule token = parse
   (* Comments *)
-  | '~' (['\x00'-'\xff'])+ '~' { token lexbuf }
+  | '~' (['\x00'-'\x7d' '\x7f'-'\xff'])+ '~' { token lexbuf }
 
   (* ORIA Literal *)
   | digit+ '.' digit+
