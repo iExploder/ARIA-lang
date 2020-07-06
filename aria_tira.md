@@ -143,8 +143,6 @@ Otherwise, statement2 would be executed.
 
 ## ENDIA (Loops Statement)
 
-ENDIA(loop), DIRY(break)
-
 ### Infinite Loop (`do ... loop`)
 
 ```aria
@@ -160,6 +158,13 @@ FEL WIRY ENDIA SAR condition.
   (do something)
 ENDIA LU.
 ```
+
+### Break Statement
+
+```aria
+DIRY.
+```
+Use in loops to break out.
 
 ## ARY (Built-in Print Statement)
 
