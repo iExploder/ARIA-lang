@@ -1,4 +1,8 @@
-# ARIA-lang
+# ARIA程序设计语言
+
+[English](README.md) /
+[日本語](README.jp.md) /
+[中文](README.cn.md)
 
 **ARIA语言**是基于由**霜月遥**和**日山尚**创作的**Tindharia系列**中登场的人造语言**ARIA语**的编程语言。
 

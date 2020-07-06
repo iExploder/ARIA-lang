@@ -1,6 +1,6 @@
-# ARIA-lang
+# ARIA Programming Language
 
-[English](README.en.md) /
+[English](README.md) /
 [日本語](README.jp.md) /
 [中文](README.cn.md)
 

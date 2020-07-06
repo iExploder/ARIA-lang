@@ -1,4 +1,8 @@
-# ARIA-lang
+# ARIAプログラミング言語
+
+[English](README.md) /
+[日本語](README.jp.md) /
+[中文](README.cn.md)
 
 こちらは霜月はるかと日山尚（敬称略）のメディアミックス作品群「ティンダーリアシリーズ」に登場した人造言語である「アリア語」からのプログラム言語化プロジェクトの主産物、
 ARIA言語である。
@@ -21,16 +25,8 @@ LE ARY "FEL ARS TINDHARIA.".
 LEE ARY "FEL ARS TINDHARIA.".
 ```
 上記の三つの書き方があります。
-但し、3行目の`LEE`を使う場合、コード実行系が不満を
-
-Notice:
-
-* **FEL ARY "FEL ARS TINDHARIA".** means **I say "I met the world.".**
-  * Recommended
-
-* **LEE ARY "FEL ARS TINDHARIA."** means **Say "I met the world"!!**
-  * In this way of saying ARIA may be mad from the way of speaking LOL
-  * Replacing **LEE** to **LE** is a more gentle way(also recommended).
+但し、3行目の`LEE`を使う場合、コード実行系が不満を持つことはあります、ご了承くださいwww。
+`LE`はお勧めします。
 
 ## 文法
 
