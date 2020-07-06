@@ -1,7 +1,43 @@
+~ 02_arithmetic.aria ~
+~ Example 2: Arithmetic Operations ~
+~ (C) 2020 iExploder ~
+~ This code is licensed under MIT license (see LICENSE for details) ~
+
 FEL HORY HOGEA, FIE 1 .
 FEL HORY PIYOA, FIE 2 .
 
+FEL ARY "1+2=".
 FEL ARY HOGEA + PIYOA.
+FEL ARY "\n".
+
+FEL ARY "1-2=".
 FEL ARY HOGEA - PIYOA.
+FEL ARY "\n".
+
+FEL ARY "1*2=".
 FEL ARY HOGEA * PIYOA.
+FEL ARY "\n".
+
+FEL ARY "1/2=".
 FEL ARY HOGEA / PIYOA.
+FEL ARY "\n".
+
+FEL ARY "Check 1>2: ".
+FEL ARY HOGEA > PIYOA.
+FEL ARY "\n".
+
+FEL ARY "Check 1>=2: ".
+FEL ARY HOGEA >= PIYOA.
+FEL ARY "\n".
+
+FEL ARY "Check 1<2: ".
+FEL ARY HOGEA < PIYOA.
+FEL ARY "\n".
+
+FEL ARY "Check 1<=2: ".
+FEL ARY HOGEA <= PIYOA.
+FEL ARY "\n".
+
+FEL ARY "Check 1=2: ".
+FEL ARY HOGEA = PIYOA.
+FEL ARY "\n".

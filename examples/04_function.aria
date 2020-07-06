@@ -1,12 +1,29 @@
-FEL ARS LO SUMA, WEL FIRY FROMA SA TOA.
+~ 04_function.aria ~
+~ Example 4: Function Call ~
+~ (C) 2020 iExploder ~
+~ This code is licensed under MIT license (see LICENSE for details) ~
+
+~ Function SUM(FROMA, TOA) ~
+~ Returns sum of integers between FROMA and TOA. ~
+FEL ARS LO SUM, WEL FIRY FROMA SA TOA.
+  ~ Declare variable IA = FROMA ~
   FEL HORY IA, FIE FROMA.
-  FEL HORY SUMALLA, FIE 0.
+  ~ Declare variable SUMA = 0 ~
+  FEL HORY SUMA, FIE 0.
+  ~ Loop while IA <= TOA ~
   FEL WIRY ENDIA SAR IA <= TOA.
-    SUMALLA QURELY SUMALLA + IA.
+    ~ Assign SUMA+IA to SUMA ~
+    SUMA QURELY SUMA + IA.
+    ~ Assign IA+1 to IA (Increment IA) ~
     IA QURELY YUERY IA.
+  ~ Loop ends ~
   ENDIA LU.
-  WEL FIRK SUMALLA.
+  ~ Return SUMA ~
+  WEL FIRK SUMA.
+~ Function ends ~
 LU.
 
-FEL HORY TESTA, FIE SUMA ENDK MIO FROMA SIE 1, TOA SIE 100.
+~ Call SUM(FROMA=1,TOA=100) ~
+FEL HORY TESTA, FIE SUM ENDK MIO FROMA SIE 1, TOA SIE 100.
+~ Print the result. ~
 FEL ARY TESTA.

@@ -1,10 +1,12 @@
 %{
 open Syntax
+open Leas
 %}
 // Literal 
 %token <float>  ORIA
 %token <string> ARIA
 %token <string> MAR
+%token <string> MARENDY
 
 // Operators
 %token PLUS     // '+'
@@ -106,8 +108,8 @@ tind:
   | NELSELD                       { Tira nelseld }
   | tind iry2 tind                { Iry2 ($2, ($1, $3)) }
   | iry1 tind                     { Iry1 ($1, $2) }
-  | MAR ENDK MIO paramlist        { WiryEndy($1, $4) }
-  | MAR ENDK                      { WiryEndy($1, []) }
+  | MARENDY ENDK MIO paramlist    { WiryEndy($1, $4) }
+  | MARENDY ENDK                  { WiryEndy($1, []) }
   | MAR                           { Nelweld $1 }
 
 
@@ -135,9 +137,9 @@ endy_param:
   | endy_param SE endy_param      { $1 @ $3 }
 
 horyendy:
-  | FEL ARS LO MAR COMMA WEL FIRY endy_param FULLSTOP walre LU FULLSTOP
+  | FEL ARS LO MARENDY COMMA WEL FIRY endy_param FULLSTOP walre LU FULLSTOP
     { HoryEndy($4, $8, $10) }
-  | FEL ARS LO MAR FULLSTOP walre LU FULLSTOP
+  | FEL ARS LO MARENDY FULLSTOP walre LU FULLSTOP
     { HoryEndy($4, [], $6) }
 
 

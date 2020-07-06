@@ -8,12 +8,18 @@ let alpha = ['A'-'Z' 'a'-'z' '_']
 
 
 rule token = parse
+  (* Comments *)
+  | '~' (['\x00'-'\xff'])+ '~' { token lexbuf }
+
+  (* ORIA Literal *)
   | digit+ '.' digit+
     { let str = Lexing.lexeme lexbuf in
       ORIA (float_of_string str) }
   | digit+
     { let str = Lexing.lexeme lexbuf in
       ORIA (float_of_string str)}
+
+  (* ARIA Literal *)
   | '"' ([^'"''\\'] | '\\'['\x00'-'\xff'])+ '"' {
     let lexeme = Bytes.sub_string
       lexbuf.lex_buffer
@@ -81,6 +87,9 @@ rule token = parse
   (* Variables *)
   | alpha+ 'A'
     { MAR (Lexing.lexeme lexbuf) }
+
+  | alpha+
+    { MARENDY (Lexing.lexeme lexbuf) }
   
   (* Control *)
   | eof       { EOF }

@@ -3,41 +3,53 @@
 ## Reserved words (alphabetal sorted)
 
 The following words are **reserved** words.
-You **CAN NOT** use them as names of variables or functions.
+You **CAN NOT** use them as names of variables.
 
-* ARIA
-* ARS
-* DIRY
 * ENDIA
-* FIE
+* SYUA
+* SA
+
+The following words are also **reserved**,
+you can not use them as names of functions.
+
+* SELD
+* NELSELD
 * FEL
-* FIRK
-* FIRY
-* HORK
+* FIE
 * HORY
-* LAWARY
-* LE
-* LEE
+* HORK
+* ARS
+* WEL
+* FIRY
+* SASE
+* FIRK
 * LU
+* YUERY
+* WORY
+* ENDY
+* MIO
+* SIE
+* ENDK
+* QURELY
 * NEL
 * NEN
-* ORIA
-* QURELY
-* SA
-* SE
-* SIE
-* SYUA
-* TAS
-* TIRA
-* WEL
 * WIRY
+* SAR
+* ARY
+* LO
+* SE
+* SO
+* DIRY
+* LE
+* LEE
+* RARY
 
 ## TIND (Expressions)
 
 * WELD (Literals)
   * ORIA(Numbers): `1`, `2`, `1.5`, ...
-  * TIRA(Booleans): `SELD` , `NELSELD`
-  * ARIA(String): Text quoted by `""`
+  * TIRA(Booleans): `SELD`(true) , `NELSELD`(false)
+  * ARIA(String): Text quoted by `""`, `foo`, `hoge`, `しも～っす！`, ...
 * NELWELD (Variables)
 
 ## HORY (Declaration)
@@ -58,14 +70,14 @@ Variable's `type` is infered by initial value if it is not specified.
 
 ### HOLY ENDY (Declaration of Functions)
 
+The name of functions should contains only **capital** letters and end in letter other than `A`.
+
 ```aria
 FEL ARS LO function-name, WEL FIRY param1 (SA/SE param2 ...).
-  in-function contents
+  in-function commands
   WEL FIRK return-value.
 LU.
 ```
-
-
 
 ## IRY (Operations)
 
@@ -155,4 +167,12 @@ ENDIA LU.
 FEL/LE/LEE ARY value.
 ```
 
+## Comments
 
+Text quoted by `~` are comments.
+Code or text as comments are ignored by the interpreter.
+```aria
+~ This is a comment. ~
+~ hoge piyo fuga foo bar ~
+~ そして誰もいなくなった ~
+```

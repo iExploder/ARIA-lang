@@ -1,6 +1,17 @@
+~ 03_loop.aria ~
+~ Example 3: Loop ~
+~ (C) 2020 iExploder ~
+~ This code is licensed under MIT license (see LICENSE for details) ~
+
+~ Declare variable HOGEA = 0 ~
 FEL HORY HOGEA, FIE 0.
+~ Loop while HOGEA < 3 ~
 FEL WIRY ENDIA SAR HOGEA < 3.
+  ~ Print HOGEA+1 (Loop count start from 1) ~
   FEL ARY HOGEA + 1.
+  ~ Print "FEL ARS TINDHARIA!"(Hello world, with line-feed) ~
   FEL ARY "FEL ARS TINDHARIA!\n".
+  ~ Assign(Set) HOGEA = HOGEA + 1 ~
   HOGEA QURELY YUERY HOGEA.
+~ Loop END ~
 ENDIA LU.

@@ -1,1 +1,9 @@
+~ 01_helloworld.aria ~
+~ Example 1: Hello World! ~
+~ (C) 2020 iExploder ~
+~ This code is licensed under MIT license (see LICENSE for details) ~
+
+~ FEL ARS TINDHARIA! ~
+~ Print "Hello world!"(in ARIA) ~
 FEL ARY "FEL ARS TINDHARIA!".
+FEL ARY "日本語テスト!".
