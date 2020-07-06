@@ -1,3 +1,8 @@
+(* leas.ml
+ * (C) 2020 iExploder
+ * This code is licensed under MIT license (see LICENSE for details)
+ *)
+
 open Printf
 let typ_loria = "LORIA(Void)"
 let typ_oria = "ORIA(Number)"
