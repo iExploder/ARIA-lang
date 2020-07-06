@@ -164,6 +164,12 @@ FEL WIRY ENDIA SAR 条件式.
 ENDIA LU.
 ```
 
+### BREAK文
+```aria
+DIRY.
+```
+ループの中で使ってと、ループから脱出となります。
+
 ## ARY (値を出力)
 
 ```aria
