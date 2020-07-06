@@ -1,3 +1,7 @@
+// parser.mly
+// (C) 2020 iExploder
+// This code is licensed under MIT license (see LICENSE for details)
+
 %{
 open Syntax
 open Leas

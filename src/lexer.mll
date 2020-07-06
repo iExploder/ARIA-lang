@@ -1,3 +1,7 @@
+(* lexer.mll
+ * (C) 2020 iExploder
+ * This code is licensed under MIT license (see LICENSE for details)
+ *)
 {
 open Parser
 }
