@@ -30,7 +30,7 @@ LEE ARY "FEL ARS TINDHARIA.".
 
 ## 文法
 
-ページ「[ARIA TIRA](aria_tira.md)(ARIAの理)」をご参照ください。
+ページ「[ARIA TIRA](aria_tira.jp.md)(ARIAの理)」をご参照ください。
 
 ## 語彙 (準備中)
 
@@ -45,7 +45,7 @@ LEE ARY "FEL ARS TINDHARIA.".
 * 言語設計 (OK)
 * OCamlに基づくインタプリタ (OK)
 * ARIA語のエラーメッセージ (だれか～た～すけ～てぇ～)
-* 拡張文法 (つづく))
+* 拡張文法 (まもなく　ナリマス　ナリマスwww)
 
 ## 関連リンク
 
